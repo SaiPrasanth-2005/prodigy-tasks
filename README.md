@@ -33,7 +33,11 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
 // script.js
+
+
 window.addEventListener('scroll', function() {
     const navbar = document.getElementById('navbar');
     if (window.scrollY > 50) {
@@ -42,7 +46,9 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
+
 //style.css
+
 body, html {
     margin: 0;
     padding: 0;
